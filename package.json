@@ -5,7 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/zhangyu921/rematch-model-inject",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib --presets=@babel/preset-react"
   },
   "keywords": [
     "rematch",
@@ -20,5 +21,10 @@
   "peerDependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-react": "^7.0.0"
   }
 }
