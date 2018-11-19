@@ -2,7 +2,7 @@
   "name": "rematch-model-inject",
   "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/zhangyu921/rematch-model-inject",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
